@@ -24,7 +24,6 @@ var maxSubArray = function(nums) {
         if(nums[i] > max){
             max = nums[i];
         }
-        console.log("Current: " + current + "    Max: " + max);
     }
     return max;
 };
