@@ -38,6 +38,8 @@ var merge = function(nums1, m, nums2, n) {
     for(let k = 0; k < m + n; k++){
         nums1[k] = merged[k];
     }
+
+    console.log(nums1);
 };
 
 merge([1,2,3,0,0,0], 3, [2,5,6], 3);
